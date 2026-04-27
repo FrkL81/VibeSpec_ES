@@ -1,0 +1,21 @@
+# --- VibeSpec Template Gitignore ---
+
+# Logs y bases de datos locales
+*.log
+*.sqlite
+
+# Carpetas de dependencias (para cuando el usuario añada código)
+node_modules/
+bin/
+obj/
+vendor/
+
+# Archivos de configuración de IDEs (Evitar ruido de otros devs)
+.vscode/
+.idea/
+.vs/
+*.user
+*.suo
+
+# Archivos específicos de Agentes (opcional, por si el usuario quiere sus propias reglas)
+# .cursorrules  <-- Yo NO lo ignoraría, para que la Skill de VibeSpec persista.

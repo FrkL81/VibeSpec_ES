@@ -1,0 +1,26 @@
+# VibeSpec Compliance Record - Machine Readable
+# Útil para validaciones en CI/CD, hooks de git o bots de repositorios.
+
+vibespec_compliance:
+  version: "1.0"
+  date: "YYYY-MM-DD"
+  author: "@usuario"
+  pr_issue_id: "#123"
+  level: "Pro" # Valores aceptados: Lite, Pro
+  phase: "Generacion_Codigo" # Valores: Planificacion, Generacion_Codigo, Implementacion, Refactorizacion, Depuracion, Despliegue
+
+  # Registro de la checklist (true = verificado, false = fallido/no aplica)
+  checklist:
+    C1_legibilidad: true
+    C2_correccion: true
+    C3_manejo_errores: true
+    C4_seguridad: true
+    C5_dependencias: true
+    C6_sin_alucinaciones: true
+
+  # Registro de desviaciones documentadas
+  deviations:
+    has_deviations: false
+    # Si has_deviations es true, descomentar y rellenar:
+    # justification_file: "path/to/desviacion.md"
+    # approved_by: "@tech_lead"
