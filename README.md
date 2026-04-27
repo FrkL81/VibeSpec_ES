@@ -1,6 +1,6 @@
 # VibeSpec 🧠
 
-![CodeBlast Header](assets\banner-dark_ES.png)
+![CodeBlast Header](assets/banner-dark_ES.png)
 
 **El estándar de desarrollo agéntico para mitigar la deuda técnica cognitiva.**
 
